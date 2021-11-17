@@ -1,0 +1,12 @@
+/* Google Fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Darker+Grotesque:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Bonheur Royale", sans-serif;
+  font-size: 2.5rem;
+  padding: 0;
+}
