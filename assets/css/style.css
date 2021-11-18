@@ -6,6 +6,10 @@ body {
 }
 
 /* --------------------- Navigation bar --------------------- */
+.navbar {
+  padding: 0;
+}
+
 .navbar-brand {
   font-family: "Bonheur Royale", sans-serif;
   font-size: 2.5rem;
@@ -26,5 +30,5 @@ body {
 .navbar-toggler {
   font-size: 1.4rem;
   border: none;
-  box-shadow: none;
+  box-shadow: none !important;
 }
