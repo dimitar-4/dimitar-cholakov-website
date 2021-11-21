@@ -20,12 +20,13 @@ body {
 }
 
 .nav-item:hover {
-  background-color: rgba(232, 233, 231, 0.5);
+  background-color: rgba(227, 230, 225, 0.5);
   transition: ease-in-out 400ms;
 }
 
 .nav-link {
   font-size: 1.1rem;
+  font-weight: 500;
   color: black !important;
   letter-spacing: 1px;
 }
@@ -37,3 +38,36 @@ body {
 }
 
 /* ---------------------- Home container --------------------- */
+.hero-card {
+  border-radius: 0;
+}
+
+.hero-img {
+  height: 90vh;
+  object-fit: cover;
+  opacity: 0.5;
+  border-radius: 0;
+}
+
+.hero-text {
+  top: 25%;
+  right: 8%;
+}
+
+.hero-card h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.hero-card h4 {
+  font-size: 1.6rem;
+}
+
+/* ---------------------- Media queries ----------------------- */
+@media (max-width: 992px) {
+  .hero-text {
+    top: 0;
+    right: 0;
+  }
+}
