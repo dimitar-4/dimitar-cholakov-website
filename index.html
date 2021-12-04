@@ -26,7 +26,7 @@
 
     <!-- Navigation bar  -->
     <header>
-        <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-light">
+        <nav id="my-nav" class="navbar navbar-light navbar-expand-lg fixed-top bg-light">
             <a class="navbar-brand ms-3" href="index.html">Dimitar Cholakov</a>
             <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
                 aria-controls="navbarOffcanvasLg">
@@ -42,7 +42,7 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item mx-auto p-2">
-                            <a class="nav-link active text-uppercase" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item mx-auto p-2">
                             <a class="nav-link text-uppercase" href="#about">About</a>
@@ -69,7 +69,7 @@
     </header>
 
     <!-- Hero image and main headings -->
-    <div class="row mt-5 mx-auto">
+    <div id="home" class="row mt-5 mx-auto">
         <div class="card bg-dark text-white border-0 mt-2 px-0 hero-card">
             <img src="/assets/images/hero-img.jpg" class="card-img hero-img" alt="hero-image">
             <div class="card-img-overlay hero-text">
@@ -121,8 +121,12 @@
         </div>
     </div>
     
+    <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+
+    <!-- Javascript -->
+    <script src="/assets/script/script.js"></script>
 </body>
 </html>
