@@ -1,7 +1,9 @@
 /* -------------------- Google Fonts import -------------------- */
+
 @import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Darker+Grotesque:wght@300;400;500;600;700;800&display=swap");
 
-/* -------------------- Main style patterns ------------------- */
+/* -------------------- Body style ------------------- */
+
 body {
   margin: 0;
   padding: 0;
@@ -11,8 +13,10 @@ body {
 }
 
 /* --------------------- Navigation bar --------------------- */
+
 .navbar {
   padding: 0;
+  opacity: 0.9;
 }
 
 .navbar-brand {
@@ -50,7 +54,8 @@ body {
   box-shadow: none !important;
 }
 
-/* ---------------------- Home container --------------------- */
+/* ---------------------- Home content --------------------- */
+
 .hero-card {
   border-radius: 0;
 }
@@ -71,13 +76,46 @@ body {
   font-size: 2.6rem;
   font-weight: 600;
   margin-right: 3rem;
+  animation: greet 3s;
+  -webkit-animation: greet 3s;
 }
 
 .hero-text h4 {
   font-size: 1.6rem;
+  animation: sub-title 4s;
+  -webkit-animation: sub-title 4s;
+}
+
+/* ----------------------- Keyframes --------------------------- */
+
+@keyframes greet {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+  }
+}
+
+@keyframes sub-title {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
 }
 
 /* ---------------------- Media queries ----------------------- */
+
 @media (max-width: 992px) {
   .hero-text {
     top: 10%;
@@ -95,9 +133,12 @@ body {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    opacity: 1;
+  }
+
   .active {
     border-left: none;
-    border-right: none;
     border-bottom: 1px solid #e7ebe7;
     transition: ease-in-out 400ms;
   }
