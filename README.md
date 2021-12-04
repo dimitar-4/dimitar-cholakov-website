@@ -1,42 +1,34 @@
-# Personal Website - **Dimitar Cholakov**
+# **Dimitar Cholakov** - Personal Website/Portfolio
+
+## Languages Used
+
+1. HTML 5 - _Structure_
+2. CSS 3 - _Style_
+3. JavaScript - _Logic_
 
 ---
 
-## (UX)
- 
-### User Stories
-
-
----
-## Features  
-
- - Owner introduction.
- - See owner's education and skills.   
- - See owner's professional experience/projects.
- - See/download owner's CV.
- - See owner's personal activities and hobby work.
- - Owner's contact information.
-
----
 ## Technologies Used
 
- 1. HTML 5
- 2. CSS 3
- 3. Git
- 4. GitHub
- 5. Bootstrap v5.1.3 
- 6. Google Fonts
- 7. Font Awesome
+1.  Visual Studio Code
+    - Code editor used to create this project.
+2.  Bootstrap v5.1.3
+    - Used to add responsive design, components and layout.
+3.  Google Fonts
+    - Used to add fonts for the text content.
+4.  Font Awesome
+    - Used to add icons.
+5.  Favicon.io
+    - Used to create and add favicon.
+6.  Git
+    - Used for version control.
+7.  GitHub
+    - Used to publish and store this project.
 
 ---
-## Testing     
 
----
-## Deployment
-
----
 ## Credits
 
-### Content 
+### Content
 
 ### Media
