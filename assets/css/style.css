@@ -16,11 +16,6 @@ body {
 
 .navbar {
   padding: 0;
-  opacity: 0.8;
-}
-
-.navbar:hover {
-  opacity: 1;
 }
 
 .navbar-brand {
@@ -58,6 +53,28 @@ body {
   box-shadow: none !important;
 }
 
+/* ----------------------Go to top button -------------------- */
+
+.to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1099;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  background-color: #495a6e;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.to-top-btn:hover {
+  color: #495a6e;
+  background-color: #ffffff;
+}
+
 /* ---------------------- Home content --------------------- */
 
 .hero-card {
@@ -65,7 +82,7 @@ body {
 }
 
 .hero-img {
-  height: 87vh;
+  height: 85vh;
   object-fit: cover;
   opacity: 0.5;
   border-radius: 0;
