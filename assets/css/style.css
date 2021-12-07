@@ -32,12 +32,7 @@ body {
 
 .nav-item:hover {
   background-color: #e7ebe7;
-  transition: ease-in-out 400ms;
-}
-
-.active {
-  border-left: 1px solid #e7ebe7;
-  transition: ease-in-out 400ms;
+  transition: 400ms ease-in-out;
 }
 
 .nav-link {
@@ -73,6 +68,7 @@ body {
 .to-top-btn:hover {
   color: #495a6e;
   background-color: #ffffff;
+  transition: 400ms ease-in-out;
 }
 
 /* ---------------------- Home content --------------------- */
@@ -129,7 +125,12 @@ body {
   list-style: none;
 }
 
-.achieve-link,
+.achieve-link {
+  text-decoration: none;
+  color: #495a6e;
+  padding: 0.5rem;
+}
+
 .network-link {
   text-decoration: none;
   color: #000;
@@ -140,7 +141,7 @@ body {
 .achieve-link:hover,
 .network-link:hover {
   background: #e7ebe7;
-  color: #062906;
+  color: #495a6e;
   transition: ease-in-out 400ms;
 }
 
@@ -202,12 +203,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .active {
-    border-left: none;
-    border-bottom: 1px solid #e7ebe7;
-    transition: ease-in-out 400ms;
-  }
-
   .hero-text {
     top: 0;
     right: 0;
