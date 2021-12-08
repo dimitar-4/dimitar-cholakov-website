@@ -87,7 +87,7 @@
 
     <!-- About Me container -->
     <div class="container mt-3">
-        <div class="row">
+        <div class="row mt-3">
             <h1 id="about" class="text-lg-start text-center mt-3">More About Me</h1>
             <div class="col-12 col-lg-10 offset-lg-1">
                 <p class="fs-5 mt-3">
@@ -96,6 +96,8 @@
                     seeker eager to learn more and gain experience in an actual work environment.
                 </p>
             </div>
+        </div>
+        <div class="row">
             <div class="col col-lg-6 col-md-8 offset-lg-1">
                 <!-- About  Accordion -->
                 <div class="accordion accordion-flush shadow mt-3" id="accordionFlushExample">
@@ -237,49 +239,51 @@
                 </p>
             </div>
             <div class="col-12 col-lg-3 col-md-4 offset-lg-1">
-                <!-- Network image and links -->
-                <h5 class="text-center text-uppercase mt-3 fw-bolder">Connect With Me</h5>
-                <ul class="network-list mt-3 d-flex justify-content-evenly">
-                    <li class="network-item">
-                        <a href="https://www.linkedin.com/in/dimitar-cholakov-a298201b5/" 
-                            target="_blank" class="network-link">
+                <!-- Networks card -->
+                <div class="card mt-3 shadow rounded-0 connect-card">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase text-center fw-bolder">Networks</h5>
+                        <h6 class="card-subtitle mb-2 text-center">Connect with me!</h6>
+                        <div class="row my-3">
+                            <div class="col-5">
+                                <img src="/assets/images/social-media-img.png" class="media-img" alt="Social media image">
+                            </div>
+                            <div class="col-7">
+                                <p class="card-text">
+                                    "Hi! You can find me in social and other networks I'm using in the links bellow."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-0">
+                    <div class="col net-links text-center">
+                        <a href="https://www.linkedin.com/in/dimitar-cholakov-a298201b5" 
+                            class="card-link network-link text" target="_blank">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                    </li>
-                    <li class="network-item">
                         <a href="https://github.com/dimitar-4" 
-                            target="_blank" class="network-link">
+                            class="card-link network-link" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
-                    </li>
-                    <li class="network-item">
-                        <a href="https://app.slack.com/client/T0L30B202/D01AS6N2BL0/user_profile/U019VF456LT" 
-                            target="_blank" class="network-link">
-                            <i class="fab fa-slack"></i>
-                        </a>
-                    </li>
-                </ul>
-                <img src="/assets/images/social-media-img.png" class="media-img mt-3" alt="Social media image">
-                <ul class="network-list mt-3 d-flex justify-content-evenly">
-                    <li class="network-item">
-                        <a href="https://www.facebook.com/dimitar.cholakov1/" 
-                            target="_blank" class="network-link">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="network-item">
-                        <a href="https://www.instagram.com/dimitar.e.cholakov/" 
-                            target="_blank" class="network-link">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li class="network-item">
                         <a href="mailto:dimitar.e.cholakov@gmail.com" 
-                            class="network-link">
+                            class="card-link network-link">
                             <i class="fas fa-at"></i>
                         </a>
-                    </li>
-                </ul>
+                        <a href="https://app.slack.com/client/T0L30B202/D01AS6N2BL0/user_profile/U019VF456LT" 
+                            class="card-link network-link" target="_blank">
+                            <i class="fab fa-slack"></i>
+                        </a>
+                        <a href="https://www.facebook.com/dimitar.cholakov1/" 
+                            class="card-link network-link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/dimitar.e.cholakov/" 
+                            class="card-link network-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
