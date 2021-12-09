@@ -101,6 +101,33 @@ body {
 
 /* ---------------------- About content ------------------------ */
 
+.modal-btn {
+  color: #495a6e;
+  border: 1px solid #495a6e;
+}
+
+.modal-btn:hover {
+  color: #495a6e;
+  border: 1px solid #495a6e;
+  background-color: #e7ebe7;
+  transition: ease-in-out 400ms;
+}
+
+.modal-footer {
+  justify-content: center;
+  align-items: center;
+}
+
+.close-modal-btn {
+  color: #fafafa;
+  background-color: #495a6e;
+}
+
+.close-modal-btn:hover {
+  background-color: #fafafa;
+  border: 1px solid #495a6e;
+}
+
 .accordion-button:not(.collapsed) {
   box-shadow: none;
   background: #fafafa;
