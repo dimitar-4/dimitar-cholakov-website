@@ -121,8 +121,7 @@ body {
   padding: 0;
 }
 
-.achieve-item,
-.network-item {
+.achieve-item {
   list-style: none;
 }
 
@@ -132,11 +131,17 @@ body {
   padding: 0.5rem;
 }
 
+.achieve-link:hover {
+  background: #e7ebe7;
+  color: #495a6e;
+  transition: ease-in-out 400ms;
+}
+
 .net-links {
   background-color: #fafafa;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border-bottom: 1px solid #495a6e;
 }
 
@@ -151,12 +156,6 @@ body {
 .network-link:hover {
   color: #fafafa;
   background-color: #495a6e;
-  transition: ease-in-out 400ms;
-}
-
-.achieve-link:hover {
-  background: #e7ebe7;
-  color: #495a6e;
   transition: ease-in-out 400ms;
 }
 
