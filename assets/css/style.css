@@ -26,6 +26,10 @@ body {
   font-weight: 500;
 }
 
+.nav-item {
+  transition: 400ms ease-in-out;
+}
+
 .nav-item:hover {
   background-color: #e7ebe7;
   transition: 400ms ease-in-out;
@@ -34,7 +38,7 @@ body {
 .nav-link {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #000 !important;
+  color: #000000 !important;
   letter-spacing: 1px;
 }
 
@@ -56,14 +60,17 @@ body {
   border: none;
   outline: none;
   background-color: #495a6e;
-  color: #ffffff;
+  color: #fafafa;
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #fafafa;
+  transition: 400ms ease-in-out;
 }
 
 .to-top-btn:hover {
-  color: #495a6e;
-  background-color: #ffffff;
+  color: #000000;
+  background-color: #fafafa;
+  border: 1px solid #495a6e;
   transition: 400ms ease-in-out;
 }
 
@@ -103,13 +110,16 @@ body {
 
 .modal-btn {
   color: #495a6e;
+  background: #fafafa;
   border: 1px solid #495a6e;
+  transition: ease-in-out 400ms;
 }
 
 .modal-btn:hover {
   color: #495a6e;
   border: 1px solid #495a6e;
   background-color: #e7ebe7;
+  letter-spacing: 1px;
   transition: ease-in-out 400ms;
 }
 
@@ -121,6 +131,8 @@ body {
 .close-modal-btn {
   color: #fafafa;
   background-color: #495a6e;
+  border-radius: 0;
+  width: 50%;
 }
 
 .close-modal-btn:hover {
@@ -136,6 +148,10 @@ body {
 
 .accordion-button:focus {
   box-shadow: none;
+}
+
+.lang-bar {
+  height: 1.5rem;
 }
 
 .connect-card {
@@ -155,11 +171,12 @@ body {
 .achieve-link {
   text-decoration: none;
   color: #495a6e;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
 }
 
 .achieve-link:hover {
-  background: #e7ebe7;
+  background-color: #e7ebe7;
   color: #495a6e;
   transition: ease-in-out 400ms;
 }
