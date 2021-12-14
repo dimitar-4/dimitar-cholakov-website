@@ -23,12 +23,6 @@ body {
   padding: 0;
 }
 
-.offcanvas-header h5 {
-  font-family: "Bonheur Royale", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
 .nav-item {
   transition: 400ms ease-in-out;
 }
@@ -139,8 +133,22 @@ body {
 }
 
 .close-modal-btn:hover {
-  background-color: #fafafa;
+  background-color: #e7ebe7;
   border: 1px solid #495a6e;
+}
+
+.edu-work-link {
+  color: #495a6e;
+  text-decoration: none;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  transition: ease-in-out 400ms;
+}
+
+.edu-work-link:hover {
+  background: #e7ebe7;
+  color: #495a6e;
+  transition: ease-in-out 400ms;
 }
 
 .accordion-button:not(.collapsed) {
