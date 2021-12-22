@@ -11,6 +11,30 @@ body {
   position: relative;
 }
 
+/* -------------- Skip Nav and Home content link-------------- */
+
+.go-to-main-link {
+  position: absolute;
+  text-decoration: none;
+  background-color: #0a7820;
+  color: #fafafa;
+  font-size: 1.1rem;
+  left: 3rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0;
+  transform: translateY(-120%);
+  transition: 400ms ease-in;
+}
+
+.go-to-main-link:hover {
+  color: #fafafa;
+}
+
+.go-to-main-link:focus {
+  transform: translateY(0);
+  z-index: 1100;
+}
+
 /* --------------------- Navigation bar --------------------- */
 
 .navbar {
@@ -18,24 +42,23 @@ body {
 }
 
 .navbar-brand img {
-  width: 3.2rem;
   height: auto;
   padding: 0;
 }
 
 .nav-item {
-  transition: 400ms ease-in-out;
+  transition: 400ms ease-in;
 }
 
 .nav-item:hover {
   background-color: #e7ebe7;
-  transition: 400ms ease-in-out;
+  transition: 400ms ease-in;
 }
 
 .nav-link {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #000000 !important;
+  color: #000000;
   letter-spacing: 1px;
 }
 
@@ -61,14 +84,14 @@ body {
   cursor: pointer;
   padding: 0.3rem 0.5rem;
   border: 1px solid #fafafa;
-  transition: 400ms ease-in-out;
+  transition: 400ms ease-in;
 }
 
 .to-top-btn:hover {
   color: #000000;
   background-color: #fafafa;
   border: 1px solid #495a6e;
-  transition: 400ms ease-in-out;
+  transition: 400ms ease-in;
 }
 
 /* ---------------------- Home content --------------------- */
@@ -257,7 +280,7 @@ body {
 
 @media (max-width: 992px) {
   .navbar-brand img {
-    width: 2.5rem;
+    width: 2.25rem;
   }
 
   .hero-text {
