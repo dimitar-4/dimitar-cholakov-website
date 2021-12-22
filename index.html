@@ -31,9 +31,12 @@
 
     <!-- Navigation bar  -->
     <header>
+        <a href="#main-content" class="go-to-main-link">
+            Skip To Content
+        </a>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand ms-3" href="index.html">
+                <a class="navbar-brand ms-2 d-md-block d-lg-none" href="index.html">
                     <img src="/assets/images/favicon.png" alt="My logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -43,7 +46,7 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item mx-auto p-2">
-                            <a class="nav-link active text-uppercase" aria-current="page" href="#home">
+                            <a class="nav-link active text-uppercase" aria-current="page" href="index.html">
                                 <i class="fas fa-home"></i>
                             </a>
                         </li>
@@ -85,463 +88,466 @@
         </div>
     </div>
 
-    <!-- About Me container -->
-    <div class="container mt-3">
-        <div class="row mt-3">
-            <h1 id="about" class="text-lg-start text-center mt-3">More About Me</h1>
-            <div class="col-12 col-lg-10 offset-lg-1">
-                <p class="fs-5 mt-3 text-lg-start text-center">
-                    I'm a junior software developer, hobby photographer and former industry specialist.
-                    Now I specialize mostly in frontend development. Currently I'm a student and a job
-                    seeker eager to learn more and gain experience in an actual work environment.
-                </p>
+    <main id="main-content">
+        <!-- About Me container -->
+        <div class="container mt-3">
+            <div class="row mt-3">
+                <h1 id="about" class="text-lg-start text-center mt-3">More About Me</h1>
+                <div class="col-12 col-lg-10 offset-lg-1">
+                    <p class="fs-5 mt-3 text-lg-start text-center">
+                        I'm a junior software developer, hobby photographer and former industry specialist.
+                        Now I specialize mostly in frontend development. Currently I'm a student and a job
+                        seeker eager to learn more and gain experience in an actual work environment.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col col-lg-5 col-md-6 offset-lg-1">
-                <!-- Resume modals -->
-                <!-- Experience modal -->
-                <button type="button" data-bs-toggle="modal" data-bs-target="#experience"
-                    class="btn w-100 my-2 fs-5 text-uppercase fw-bolder shadow rounded-0 modal-btn" >
-                    Experience & Early Career
-                </button>
-                <div class="modal fade" id="experience" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                        <div class="modal-content rounded-0">
-                            <div class="modal-header">
-                                <h5 class="modal-title text-uppercase" id="exampleModalLabel">Experience</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <!-- Experience accordion -->
-                                <div class="accordion accordion-flush shadow mt-3" id="accordionFlushExample">
-                                    <!-- Coding experience -->
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingNine">
-                                            <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                                                2020-Current: (Linköping, Sweden)
-                                                <span class="fw-normal">Software Developer</span>
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                        </div>
-                                    </div>
-                                    <!-- KL Industry experience -->
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingFive">
-                                            <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                                2016-2020: KL Industri AB (Finspång, Sweden)
-                                                <span class="fw-normal">Assembly & Warehousing Specialist</span>
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                        </div>
-                                    </div>
-                                    <!-- Manpower experience -->
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingSix">
-                                            <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                                2019-2020: Manpower Group AB (Linköping, Sweden)
-                                                <span class="fw-normal">Industry Specialist</span> 
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
-                                                filled with some actual content.</div>
-                                        </div>
-                                    </div>
-                                    <!-- Market developer experience -->
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingSeven">
-                                            <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                                2013-2015: ELD Ltd (Smolyan, Bulgaria)
-                                                <span class="fw-normal">Market Developer</span>
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body text-center fs-5">
-                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsum sequi minima 
-                                                    maxime ullam vitae adipisci aspernatur facere reiciendis distinctio.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Sales experience -->
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingEight">
-                                            <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-                                                2007-2010: Technomarket LTD & Georg Ltd (Smolyan, Bulgaria)
-                                                <span class="fw-normal">Sales Consultant</span>
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the
-                                                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-                                                happening here in terms of content, but just filling up the space to make it look, at least at first
-                                                glance, a bit more representative of how this would look in a real-world application.</div>
-                                        </div>
-                                    </div>
+            <div class="row">
+                <div class="col col-lg-4 col-md-6 offset-lg-1">
+                    <!-- Resume modals -->
+                    <!-- Experience modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#experience"
+                        class="btn w-100 my-2 fs-5 shadow rounded-0 modal-btn" >
+                        Experience & Early Career
+                    </button>
+                    <div class="modal fade" id="experience" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content rounded-0">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-uppercase" id="exampleModalLabel">Experience</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn text-uppercase close-modal-btn" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Education modal -->
-                <button type="button" data-bs-toggle="modal" data-bs-target="#education"
-                    class="btn w-100 my-2 fs-5 text-uppercase fw-bolder shadow rounded-0 modal-btn" >
-                    Education
-                </button>
-                <div class="modal fade" id="education" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                        <div class="modal-content rounded-0">
-                            <div class="modal-header">
-                                <h5 class="modal-title text-uppercase" id="exampleModalLabel">Education</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <!-- Education accordion -->
-                                <div class="accordion accordion-flush shadow mt-3" id="accordionFlushExample">
-                                    <!-- Lexicon course -->
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingOne">
-                                            <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                2021-Current: Lexicon (Frontend Development)
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body fs-5">
-                                                Frontend development course for developers with experience. Learning content includes modern 
-                                                frontend technologies like React, Vue, Angular,version control and frontend-backend 
-                                                communication basics.
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Subject:</div>
-                                                    <div class="col-9">Frontend Development</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Degree:</div>
-                                                    <div class="col-9">Certificate</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Status:</div>
-                                                    <div class="col-9">In Progress</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Links:</div>
-                                                    <div class="col-9">
-                                                        <a href="https://www.lexicon.se/" target="_blank" class="edu-work-link">Lexicon</a>
-                                                    </div>
+                                <div class="modal-body">
+                                    <!-- Experience accordion -->
+                                    <div class="accordion accordion-flush shadow mt-3" id="accordionFlushExample">
+                                        <!-- Coding experience -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingNine">
+                                                <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                                                    2020-Current: 
+                                                    <span class="fw-normal">Software Developer</span>
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body fs-5 text-center">
+                                                    <a href="#" class="">Portfolio</a>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <!-- Code Institute course -->
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingTwo">
-                                            <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                2020-2021: Code Institute (Full-stack Development)
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body fs-5">
-                                                Full-stack software development course that gives hands-on experience on creating employer-ready web technologies. 
-                                                Learning content is industry-validated and the issued EQF level 5 diploma is credit-rated by 
-                                                Edinburgh's Napier University.
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Subject:</div>
-                                                    <div class="col-9">Full-stack Development</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Degree:</div>
-                                                    <div class="col-9">Diploma</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Status:</div>
-                                                    <div class="col-9">Alum/Graduate</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Links:</div>
-                                                    <div class="col-9">
-                                                        <a href="https://www.credential.net/54804b43-1e78-4a69-9411-46aaf12ee35a#gs.hydkxq" 
-                                                            target="_blank" class="edu-work-link">
-                                                            Awarded Diploma
-                                                        </a>
-                                                        <br>
-                                                        <a href="https://codeinstitute.net/" target="_blank" class="edu-work-link">Code Institute</a>
-                                                    </div>
+                                        <!-- KL Industry experience -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingFive">
+                                                <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                                    2016-2020: KL Industri AB (Finspång, Sweden)
+                                                    <span class="fw-normal">Assembly & Warehousing Specialist</span>
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the
+                                                    <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                            </div>
+                                        </div>
+                                        <!-- Manpower experience -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingSix">
+                                                <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                                    2019-2020: Manpower Group AB (Linköping, Sweden)
+                                                    <span class="fw-normal">Industry Specialist</span> 
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the
+                                                    <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+                                                    filled with some actual content.</div>
+                                            </div>
+                                        </div>
+                                        <!-- Market developer experience -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingSeven">
+                                                <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                                    2013-2015: ELD Ltd (Smolyan, Bulgaria)
+                                                    <span class="fw-normal">Market Developer</span>
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body text-center fs-5">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsum sequi minima 
+                                                        maxime ullam vitae adipisci aspernatur facere reiciendis distinctio.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <!-- Plovdiv University -->
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingThree">
-                                            <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                2010-2014: University (Ethnology)
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body fs-5">
-                                                Plovdiv university "Paisii Hilendarski" is the second largest and most known university in Bulgaria.
-                                                Studied subject "Ethnology" in the Faculty of History and Philosophy. Left in the fourth semestrial year 
-                                                due to personal reasons.  
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Subject:</div>
-                                                    <div class="col-9"> Ethnology</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Degree:</div>
-                                                    <div class="col-9">Bachelor</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Status:</div>
-                                                    <div class="col-9">Quitted</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Links:</div>
-                                                    <div class="col-9">
-                                                        <a href="https://uni-plovdiv.bg/en/" target="_blank" class="edu-work-link">University Of Plovdiv</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- High School -->
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingFour">
-                                            <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                                2001-2006: High School (Business Administration)
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body fs-5">
-                                                High School of Economics "Karl Marx" is among the three most elite high-schools in my hometown - Smolyan, Bulgaria.
-                                                A graduate with the awarded credentials is fully prepared for accountant and administrative positions. 
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Subject:</div>
-                                                    <div class="col-9"> Business Administration</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Degree:</div>
-                                                    <div class="col-9">High School Diploma & Professional Certificate</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Status:</div>
-                                                    <div class="col-9">Graduate</div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-3 text-end">Links:</div>
-                                                    <div class="col-9">
-                                                        <a href="https://pgi-smolyan.info/" target="_blank" class="edu-work-link">High School Of Economics</a>
-                                                    </div>
-                                                </div>
+                                        <!-- Sales experience -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingEight">
+                                                <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                                                    2007-2010: Technomarket LTD & Georg Ltd (Smolyan, Bulgaria)
+                                                    <span class="fw-normal">Sales Consultant</span>
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the
+                                                    <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                                                    happening here in terms of content, but just filling up the space to make it look, at least at first
+                                                    glance, a bit more representative of how this would look in a real-world application.</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn text-uppercase close-modal-btn" data-bs-dismiss="modal">Close</button>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn text-uppercase close-modal-btn" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Credentials modal -->
-                <button type="button" data-bs-toggle="modal" data-bs-target="#credentials"
-                    class="btn w-100 my-2 fs-5 text-uppercase fw-bolder shadow rounded-0 modal-btn" >
-                    Credentials
-                </button>
-                <div class="modal fade" id="credentials" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                        <div class="modal-content rounded-0">
-                            <div class="modal-header">
-                                <h5 class="modal-title text-uppercase" id="exampleModalLabel">Credentials</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <!-- Education modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#education"
+                        class="btn w-100 my-2 fs-5 shadow rounded-0 modal-btn" >
+                        Education
+                    </button>
+                    <div class="modal fade" id="education" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content rounded-0">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-uppercase" id="exampleModalLabel">Education</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Education accordion -->
+                                    <div class="accordion accordion-flush shadow mt-3" id="accordionFlushExample">
+                                        <!-- Lexicon course -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    2021-Current: Lexicon (Frontend Development)
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body fs-5">
+                                                    Frontend development course for developers with experience. Learning content includes modern 
+                                                    frontend technologies like React, Vue, Angular,version control and frontend-backend 
+                                                    communication basics.
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Subject:</div>
+                                                        <div class="col-9">Frontend Development</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Degree:</div>
+                                                        <div class="col-9">Certificate</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Status:</div>
+                                                        <div class="col-9">In Progress</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Links:</div>
+                                                        <div class="col-9">
+                                                            <a href="https://www.lexicon.se/" target="_blank" class="edu-work-link">Lexicon</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Code Institute course -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                    2020-2021: Code Institute (Full-stack Development)
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body fs-5">
+                                                    Full-stack software development course that gives hands-on experience on creating employer-ready web technologies. 
+                                                    Learning content is industry-validated and the issued EQF level 5 diploma is credit-rated by 
+                                                    Edinburgh's Napier University.
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Subject:</div>
+                                                        <div class="col-9">Full-stack Development</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Degree:</div>
+                                                        <div class="col-9">Diploma</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Status:</div>
+                                                        <div class="col-9">Alum/Graduate</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Links:</div>
+                                                        <div class="col-9">
+                                                            <a href="https://www.credential.net/54804b43-1e78-4a69-9411-46aaf12ee35a#gs.hydkxq" 
+                                                                target="_blank" class="edu-work-link">
+                                                                Awarded Diploma
+                                                            </a>
+                                                            <br>
+                                                            <a href="https://codeinstitute.net/" target="_blank" class="edu-work-link">Code Institute</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Plovdiv University -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    2010-2014: University (Ethnology)
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body fs-5">
+                                                    Plovdiv university "Paisii Hilendarski" is the second largest and most known university in Bulgaria.
+                                                    Studied subject "Ethnology" in the Faculty of History and Philosophy. Left in the fourth semestrial year 
+                                                    due to personal reasons.  
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Subject:</div>
+                                                        <div class="col-9"> Ethnology</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Degree:</div>
+                                                        <div class="col-9">Bachelor</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Status:</div>
+                                                        <div class="col-9">Quitted</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Links:</div>
+                                                        <div class="col-9">
+                                                            <a href="https://uni-plovdiv.bg/en/" target="_blank" class="edu-work-link">University Of Plovdiv</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- High School -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingFour">
+                                                <button class="accordion-button collapsed text-uppercase fw-bolder" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                                    2001-2006: High School (Business Administration)
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body fs-5">
+                                                    High School of Economics "Karl Marx" is among the three most elite high-schools in my hometown - Smolyan, Bulgaria.
+                                                    A graduate with the awarded credentials is fully prepared for accountant and administrative positions. 
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Subject:</div>
+                                                        <div class="col-9"> Business Administration</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Degree:</div>
+                                                        <div class="col-9">High School Diploma & Professional Certificate</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Status:</div>
+                                                        <div class="col-9">Graduate</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-3 text-end">Links:</div>
+                                                        <div class="col-9">
+                                                            <a href="https://pgi-smolyan.info/" target="_blank" class="edu-work-link">High School Of Economics</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn text-uppercase close-modal-btn" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
-                            <div class="modal-body fs-5 text-center">
-                                <p class="fs-6 text-muted">
-                                    <i class="fas fa-info-circle"></i>
-                                    Click/Touch the icons to open content.
-                                </p>
-                                <ul class="achieve-list">
-                                    <li class="achieve-item my-2">
-                                        <p class="mb-1">Diploma in Software Development:</p>
-                                        <a href="https://www.credential.net/54804b43-1e78-4a69-9411-46aaf12ee35a#gs.hydkxq" 
+                        </div>
+                    </div>
+                    <!-- Credentials modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#credentials"
+                        class="btn w-100 my-2 fs-5 shadow rounded-0 modal-btn" >
+                        Credentials
+                    </button>
+                    <div class="modal fade" id="credentials" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content rounded-0">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-uppercase" id="exampleModalLabel">Credentials</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body fs-5 text-center">
+                                    <p class="fs-6 text-muted">
+                                        <i class="fas fa-info-circle"></i>
+                                        Click/Touch the icons to open content.
+                                    </p>
+                                    <ul class="achieve-list">
+                                        <li class="achieve-item my-2">
+                                            <p class="mb-1">Diploma in Software Development:</p>
+                                            <a href="https://www.credential.net/54804b43-1e78-4a69-9411-46aaf12ee35a#gs.hydkxq" 
+                                                target="_blank" class="achieve-link">
+                                                <i class="fas fa-award"></i>
+                                            </a>
+                                        </li>
+                                        <li class="achieve-item my-2">
+                                            <p class="mb-1">Certificate - Code institutes 5DCC:</p>
+                                            <a href="/assets/documents/5dcc-codeInstitute-certificate.pdf" 
                                             target="_blank" class="achieve-link">
-                                            <i class="fas fa-award"></i>
-                                        </a>
-                                    </li>
-                                    <li class="achieve-item my-2">
-                                        <p class="mb-1">Certificate - Code institutes 5DCC:</p>
-                                        <a href="/assets/documents/5dcc-codeInstitute-certificate.pdf" 
-                                        target="_blank" class="achieve-link">
-                                            <i class="fas fa-medal"></i>
-                                        </a>
-                                    </li>
-                                    <li class="achieve-item my-2">
-                                        <p class="mb-1">Projects:</p>
-                                        <a href="" class="achieve-link">
-                                            <i class="fas fa-project-diagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn text-uppercase close-modal-btn" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Skills modal -->
-                <button type="button" data-bs-toggle="modal" data-bs-target="#skills"
-                    class="btn w-100 my-2 fs-5 text-uppercase fw-bolder shadow rounded-0 modal-btn" >
-                    Skills
-                </button>
-                <div class="modal fade" id="skills" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                        <div class="modal-content rounded-0">
-                            <div class="modal-header">
-                                <h5 class="modal-title text-uppercase" id="exampleModalLabel">Skills</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn text-uppercase close-modal-btn" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Languages modal -->
-                <button type="button" data-bs-toggle="modal" data-bs-target="#languages"
-                    class="btn w-100 my-2 fs-5 text-uppercase fw-bolder shadow rounded-0 modal-btn" >
-                    Languages
-                </button>
-                <div class="modal fade" id="languages" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                        <div class="modal-content rounded-0">
-                            <div class="modal-header">
-                                <h5 class="modal-title text-uppercase" id="exampleModalLabel">Languages</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body fs-5 text-center">
-                                <p>
-                                    My native language is bulgarian. I can also speak english and swedish.
-                                </p>
-
-                                <div class="progress my-3 shadow lang-bar fs-6">
-                                    <div class="progress-bar progress-bar-striped bg-success fs-5" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                                        aria-valuemax="100">
-                                        <span class="fs-6"><strong>Bulgarian: Native</strong></span>
-                                    </div>
+                                                <i class="fas fa-medal"></i>
+                                            </a>
+                                        </li>
+                                        <li class="achieve-item my-2">
+                                            <p class="mb-1">Projects:</p>
+                                            <a href="" class="achieve-link">
+                                                <i class="fas fa-project-diagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
-
-                                <div class="progress my-3 shadow lang-bar fs-6">
-                                    <div class="progress-bar progress-bar-striped bg-primary fs-5" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-                                        aria-valuemax="100">
-                                        <span class="fs-6"><strong>English: Fluent</strong></span>
-                                    </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn text-uppercase close-modal-btn" data-bs-dismiss="modal">Close</button>
                                 </div>
-
-                                <div class="progress my-3 shadow lang-bar fs-6">
-                                    <div class="progress-bar progress-bar-striped bg-warning fs-5" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                                        aria-valuemax="100">
-                                        <span class="fs-6"><strong>Swedish: Conversant</strong></span>
-                                    </div>
-                                </div>
-                                <p class="fs-6 text-muted mt-3">
-                                    <i class="fas fa-info-circle"></i>
-                                    Language proficiency is determined by the following   
-                                    <span>
-                                        <a href="https://csb.uncw.edu/cen/docs/determining%20language%20proficiency.pdf" target="_blank">
-                                            standards of measurement 
-                                        </a>
-                                    </span> issued by UNCW.  
-                                </p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn text-uppercase close-modal-btn" data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
+                    <!-- Skills modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#skills"
+                        class="btn w-100 my-2 fs-5 shadow rounded-0 modal-btn" >
+                        Skills
+                    </button>
+                    <div class="modal fade" id="skills" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content rounded-0">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-uppercase" id="exampleModalLabel">Skills</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn text-uppercase close-modal-btn" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Languages modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#languages"
+                        class="btn w-100 my-2 fs-5 shadow rounded-0 modal-btn" >
+                        Languages
+                    </button>
+                    <div class="modal fade" id="languages" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content rounded-0">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-uppercase" id="exampleModalLabel">Languages</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body fs-5 text-center">
+                                    <p>
+                                        My native language is bulgarian. I can also speak english and swedish.
+                                    </p>
+
+                                    <div class="progress my-3 shadow lang-bar fs-6">
+                                        <div class="progress-bar progress-bar-striped bg-success fs-5" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            <span class="fs-6"><strong>Bulgarian: Native</strong></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress my-3 shadow lang-bar fs-6">
+                                        <div class="progress-bar progress-bar-striped bg-primary fs-5" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            <span class="fs-6"><strong>English: Fluent</strong></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress my-3 shadow lang-bar fs-6">
+                                        <div class="progress-bar progress-bar-striped bg-warning fs-5" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                                            aria-valuemax="100">
+                                            <span class="fs-6"><strong>Swedish: Conversant</strong></span>
+                                        </div>
+                                    </div>
+                                    <p class="fs-6 text-muted mt-3">
+                                        <i class="fas fa-info-circle"></i>
+                                        Language proficiency is determined by the following   
+                                        <span>
+                                            <a href="https://csb.uncw.edu/cen/docs/determining%20language%20proficiency.pdf" target="_blank">
+                                                standards of measurement 
+                                            </a>
+                                        </span> issued by UNCW.  
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn text-uppercase close-modal-btn" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="fs-5 mt-3 text-center">
+                        Download my CV in pdf format file here: 
+                        <a class="btn btn-primary my-2" href="#" role="button">Download CV</a>
+                        <!-- <a href="#" target="_blank" class="network-link">
+                            <i class="fas fa-file-download"></i>
+                        </a> -->
+                    </p>
                 </div>
-                <p class="fs-5 mt-3 text-center">
-                    Download my CV in pdf format file here: 
-                    <a class="btn btn-primary my-2" href="#" role="button">Download CV</a>
-                    <!-- <a href="#" target="_blank" class="network-link">
-                        <i class="fas fa-file-download"></i>
-                    </a> -->
-                </p>
-            </div>
-            <div class="col-12 col-lg-4 col-md-6 offset-lg-1">
-                <!-- Networks card -->
-                <div class="card mt-2 shadow rounded-0 connect-card">
-                    <div class="card-body">
-                        <h5 class="card-title text-uppercase text-center fw-bolder">Networks</h5>
-                        <h6 class="card-subtitle mb-2 text-center">Connect with me!</h6>
-                        <div class="row my-3">
-                            <div class="col-5">
-                                <img src="/assets/images/social-media-img.png" class="media-img" alt="Social media image">
-                            </div>
-                            <div class="col-7">
-                                <p class="card-text">
-                                    "Hi! Get in touch via e-mail or find me in different social and other networks I'm using in the links bellow."
-                                </p>
+                <div class="col-12 col-lg-5 col-md-6 offset-lg-1">
+                    <!-- Networks card -->
+                    <div class="card mt-2 shadow rounded-0 connect-card">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase text-center fw-bolder">Networks</h5>
+                            <h6 class="card-subtitle mb-2 text-center">Connect with me!</h6>
+                            <div class="row my-3">
+                                <div class="col-5">
+                                    <img src="/assets/images/social-media-img.png" class="media-img" alt="Social media image">
+                                </div>
+                                <div class="col-7">
+                                    <p class="card-text">
+                                        "Hi! Get in touch via e-mail or find me in different social and other networks I'm using in the links bellow."
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 net-links mx-0">
-                        <a href="https://www.linkedin.com/in/dimitar-cholakov-a298201b5" class="card-link network-link text"
-                            target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/dimitar-4" class="card-link network-link" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="mailto:dimitar.e.cholakov@gmail.com" class="card-link network-link">
-                            <i class="fas fa-at"></i>
-                        </a>
-                        <a href="https://app.slack.com/client/T0L30B202/D01AS6N2BL0/user_profile/U019VF456LT" class="card-link network-link"
-                            target="_blank">
-                            <i class="fab fa-slack"></i>
-                        </a>
-                        <a href="https://www.facebook.com/dimitar.cholakov1/" class="card-link network-link" target="_blank">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                        <a href="https://www.instagram.com/dimitar.e.cholakov/" class="card-link network-link" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+                        <div class="col-12 net-links mx-0">
+                            <a href="https://www.linkedin.com/in/dimitar-cholakov-a298201b5" class="card-link network-link text"
+                                target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/dimitar-4" class="card-link network-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:dimitar.e.cholakov@gmail.com" class="card-link network-link">
+                                <i class="fas fa-at"></i>
+                            </a>
+                            <a href="https://app.slack.com/client/T0L30B202/D01AS6N2BL0/user_profile/U019VF456LT" class="card-link network-link"
+                                target="_blank">
+                                <i class="fab fa-slack"></i>
+                            </a>
+                            <a href="https://www.facebook.com/dimitar.cholakov1/" class="card-link network-link" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/dimitar.e.cholakov/" class="card-link network-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
     
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
