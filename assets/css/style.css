@@ -16,12 +16,11 @@ body {
 .go-to-main-link {
   position: absolute;
   text-decoration: none;
-  background-color: #0a7820;
+  /* background-color: #0a7820; */
+  background: #495a6e;
   color: #fafafa;
-  font-size: 1.1rem;
   left: 5rem;
   padding: 0.5rem 1.5rem;
-  border-radius: 0;
   transform: translateY(-120%);
   transition: 400ms ease-in;
 }
@@ -51,14 +50,13 @@ body {
 }
 
 .nav-item:hover {
-  background-color: #e7ebe7;
+  background: #daddda8a;
   transition: 400ms ease-in;
 }
 
 .nav-link {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #000000;
   letter-spacing: 1px;
 }
 
@@ -97,7 +95,7 @@ body {
 /* ---------------------- Home content --------------------- */
 
 .hero-bg {
-  height: 75vh;
+  height: 70vh;
   object-fit: cover;
   opacity: 0.8;
   border-radius: 0;
@@ -110,7 +108,7 @@ body {
 }
 
 .hero-img {
-  height: 21rem;
+  height: 19rem;
   object-fit: cover;
   animation: hero-img 3s;
   -webkit-animation: hero-img 3s;
@@ -120,6 +118,8 @@ body {
   padding: 0;
   background: linear-gradient(to bottom right, #1378eb3a, #0d5fbd31, #018b1d31);
   /* background: linear-gradient(to bottom right, #cfdceb, #b0c6df, #a9e0b4); */
+  animation: bg-in 3s;
+  -webkit-animation: bg-in 3s;
 }
 
 .hero-text h1,
@@ -132,6 +132,7 @@ h5 {
 }
 
 .hero-links {
+  padding-right: 1rem;
   animation: hero-links 4s;
   -webkit-animation: hero-links 4s;
 }
@@ -147,23 +148,9 @@ h5 {
 }
 
 .hero-links a:hover {
+  color: #d8e3ee;
   transition: 200ms ease-in;
 }
-
-/*
-.hero-text h1 {
-  font-size: 2.6rem;
-  font-weight: 600;
-  margin-right: 3rem;
-  animation: greet 3s;
-  -webkit-animation: greet 3s;
-}
-
-.hero-text h4 {
-  font-size: 1.6rem;
-  animation: sub-title 4s;
-  -webkit-animation: sub-title 4s;
-} */
 
 /* ---------------------- About content ------------------------ */
 
@@ -302,6 +289,15 @@ h5 {
   }
 }
 
+@keyframes bg-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes greet {
   from {
     opacity: 0;
@@ -337,12 +333,16 @@ h5 {
 }
 
 @media (max-width: 768px) {
-  .hero-text h1 {
-    margin-right: 0;
+  .hero-card {
+    max-width: 90%;
   }
 }
 
 @media (max-width: 575px) {
+  .hero-bg {
+    height: 80vh;
+  }
+
   .hero-img-sm {
     display: flex;
     justify-content: center;
@@ -350,13 +350,35 @@ h5 {
   }
 
   .hero-img {
-    width: 50%;
-    height: 10rem;
+    height: 12rem;
+    max-width: 60%;
   }
 
   .hero-text h1,
   h5 {
     padding: 0 0.25rem 0.25rem;
     border-radius: 0;
+  }
+
+  .hero-links {
+    padding-right: 0;
+  }
+}
+
+@media (max-height: 450px) {
+  .hero-card {
+    max-width: 80%;
+  }
+
+  .hero-img {
+    height: 10rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text h5 {
+    font-size: 1rem !important;
   }
 }
