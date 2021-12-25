@@ -274,6 +274,12 @@ h5 {
   border: 3px solid #fafafa;
 }
 
+/* ------------------ Portfolio content -------------------- */
+
+.portfolio-container {
+  background: linear-gradient(to bottom right, #1378ebad, #0db1bdbe, #018b1dcc);
+}
+
 /* ----------------------- Keyframes --------------------------- */
 
 @keyframes hero-img {
