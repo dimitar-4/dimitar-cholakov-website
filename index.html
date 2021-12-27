@@ -87,11 +87,10 @@
                             </div>
                             <div class="col-sm-8">
                                 <div class="card-body hero-text shadow rounded-end my-2">
-                                    <h1 class="card-title text-md-start text-center"><strong>H</strong>ello! I'm <strong>Dimitar</strong>.</h1>
-                                    <h5 class="card-text text-md-start text-center fs-4">
+                                    <h1 class="card-title text-md-start text-center hero-info"><strong>H</strong>ello! I'm <strong>Dimitar</strong>.</h1>
+                                    <h5 class="card-text text-md-start text-center fs-4 hero-info">
                                         <strong>Software developer</strong> 
-                                        passionate about <strong>coding</strong> & learning new and better ways of 
-                                        '<strong>making the web</strong>'.
+                                        passionate about '<strong>making the web</strong>'. Embrace new challenges & focused on <strong>results</strong>.
                                     </h5>
                                     <div class="card-text text-md-end text-center hero-links py-2 my-1">
                                         <a href="https://www.linkedin.com/in/dimitar-cholakov-a298201b5" class="" target="_blank">
@@ -126,7 +125,7 @@
             <div class="row mt-3">
                 <h1 id="about" class="text-lg-start text-center mt-3">More About Me</h1>
                 <div class="col-12 col-lg-10 offset-lg-1">
-                    <p class="fs-5 mt-3 text-lg-start text-center">
+                    <p class="fs-5 mt-2 text-lg-start text-center">
                         I'm a junior software developer, hobby photographer, hiking enthusiast and former industry specialist.
                         Now I specialize mostly in frontend development. Currently I'm a student and a job
                         seeker eager to learn more and gain experience in an actual work environment.
@@ -262,7 +261,7 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn text-uppercase close-modal-btn"
+                                    <button type="button" class="btn text-uppercase btn-main"
                                         data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
@@ -454,7 +453,7 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn text-uppercase close-modal-btn"
+                                    <button type="button" class="btn text-uppercase btn-main"
                                         data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
@@ -503,7 +502,7 @@
                                     </ul>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn text-uppercase close-modal-btn"
+                                    <button type="button" class="btn text-uppercase btn-main"
                                         data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
@@ -527,7 +526,7 @@
                                     ...
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn text-uppercase close-modal-btn"
+                                    <button type="button" class="btn text-uppercase btn-main"
                                         data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
@@ -584,7 +583,7 @@
                                     </p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn text-uppercase close-modal-btn"
+                                    <button type="button" class="btn text-uppercase btn-main"
                                         data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
@@ -592,7 +591,7 @@
                     </div>
                     <p class="fs-5 mt-3 text-center">
                         Download my CV in pdf format file here:
-                        <a class="btn btn-primary my-2" href="#" role="button">Download CV</a>
+                        <a class="btn btn-main my-2" href="#" role="button">Download CV</a>
                         <!-- <a href="#" target="_blank" class="network-link">
                                 <i class="fas fa-file-download"></i>
                             </a> -->
@@ -650,95 +649,79 @@
         <div class="portfolio-container">
             <div class="container">
                 <div class="row mt-3">
-                    <h1 class="text-lg-start text-center mt-3">My Work</h1>
+                    <h1 class="text-lg-start text-center text-light mt-3">My Work</h1>
                     <div class="col-12 col-lg-10 offset-lg-1">
-                        <p class="fs-4 mt-3 text-lg-start text-center">
-                            These websites I've created as milestone projects while studying in Code Institute.
+                        <p class="fs-4 mt-2 text-lg-start text-center text-white">
+                            These are <strong>milestone projects</strong> I've built while studying in <strong>Code Institute</strong>.
                         </p>
                     </div>
                 </div>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 pb-3">
                     <div class="col">
-                        <div class="card shadow-lg h-auto">
-                            <img src="/assets/images/projects/ci-project1.PNG" class="card-img-top" alt="project-image">
-                            <div class="card-body">
-                                <h4 class="card-title text-dark text-center">Retro Cars Club</h4>
-                                <p class="card-text text-center">
-                                    <div class="text-center">
-                                        <button class="btn btn-primary fs-5 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProject1" 
-                                            aria-expanded="false" aria-controls="collapseProject1">
-                                            Read more
-                                        </button>
-                                        <div class="collapse" id="collapseProject1">
-                                            <div class="card card-body border-0">
-                                              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                            </div>
-                                          </div>
-                                    </div>
-                                </p>
+                        <div class="card shadow-lg mb-3 project-card">
+                            <a href="https://dimitar-4.github.io/ms-project1-rcc/" target="_blank">
+                                <img src="/assets/images/projects/ci-project1.PNG" class="card-img-top project-img" alt="project-image">
+                            </a>
+                            <div class="row card-body">
+                                <div class="project-info">
+                                    <h5 class="text-dark">Retro Cars Club</h5>
+                                    <a tabindex="0" class="btn btn-sm" role="button" data-bs-toggle="popover" 
+                                    data-bs-placement="top" data-bs-trigger="focus" title="User Centric Frontend Development" 
+                                        data-bs-content="Main Technologies: HTML, CSS, Bootstrap, Git, GitHub">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card shadow-lg h-auto">
-                            <img src="/assets/images/projects/ci-project2.PNG" class="card-img-top" alt="project-image">
-                            <div class="card-body">
-                                <h4 class="card-title text-dark text-center">Car Brands Memo Game</h4>
-                                <p class="card-text">
-                                    <div class="text-center">
-                                        <button class="btn btn-primary fs-5 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProject2" 
-                                            aria-expanded="false" aria-controls="collapseProject2">
-                                            Read more
-                                        </button>
-                                        <div class="collapse" id="collapseProject2">
-                                            <div class="card card-body border-0">
-                                              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                            </div>
-                                          </div>
-                                    </div>
-                                </p>
+                        <div class="card shadow-lg mb-3 project-card">
+                            <a href="https://dimitar-4.github.io/ms2-memory-game/" target="_blank">
+                                <img src="/assets/images/projects/ci-project2.PNG" class="card-img-top project-img" alt="project-image">
+                            </a>
+                            <div class="row card-body">
+                                <div class="project-info">
+                                    <h5 class="card-title text-dark">Car Brands Memo Game</h5>
+                                    <a tabindex="0" class="btn btn-sm" role="button" data-bs-toggle="popover" data-bs-placement="top"
+                                        data-bs-trigger="focus" title="Interactive Frontend Development"
+                                        data-bs-content="Main Technologies: HTML, CSS, JavaScript, Bootstrap, Git, GitHub">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card shadow-lg h-auto">
-                            <img src="/assets/images/projects/ci-project3.PNG" class="card-img-top" alt="project-image">
-                            <div class="card-body">
-                                <h4 class="card-title text-dark text-center">What To Watch</h4>
-                                <p class="card-text">
-                                    <div class="text-center">
-                                        <button class="btn btn-primary fs-5 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProject3" 
-                                            aria-expanded="false" aria-controls="collapseProject3">
-                                            Read more
-                                        </button>
-                                        <div class="collapse" id="collapseProject3">
-                                            <div class="card card-body border-0">
-                                              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                            </div>
-                                          </div>
-                                    </div>
-                                </p>
+                        <div class="card shadow-lg mb-3 project-card">
+                            <a href="https://what-to-watch-project.herokuapp.com/" target="_blank">
+                                <img src="/assets/images/projects/ci-project3.PNG" class="card-img-top project-img" alt="project-image">
+                            </a>
+                            <div class="row card-body">
+                                <div class="project-info">
+                                    <h5 class="card-title text-dark">What To Watch</h5>
+                                    <a tabindex="0" class="btn btn-sm" role="button" data-bs-toggle="popover" data-bs-placement="top"
+                                        data-bs-trigger="focus" title="Data Centric Development"
+                                        data-bs-content="Main Technologies: Python, MySQL, MongoDB, Git, GitHub, Heroku">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card shadow-lg h-auto">
-                            <img src="/assets/images/projects/ci-project4.jpg" class="card-img-top" alt="project-image">
-                            <div class="card-body">
-                                <h4 class="card-title text-dark text-center">DEC Photography</h4>
-                                <p class="card-text">
-                                    <div class="text-center">
-                                        <button class="btn btn-primary fs-5 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProject4" 
-                                            aria-expanded="false" aria-controls="collapseProject4">
-                                            Read more
-                                        </button>
-                                        <div class="collapse" id="collapseProject4">
-                                            <div class="card card-body border-0">
-                                              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                            </div>
-                                          </div>
-                                    </div>
-                                </p>
+                        <div class="card shadow-lg mb-3 project-card">
+                            <a href="https://dec-photography.herokuapp.com/" target="_blank">
+                                <img src="/assets/images/projects/ci-project4.png" class="card-img-top project-img" alt="project-image">
+                            </a>
+                            <div class="row card-body">
+                                <div class="project-info">
+                                    <h5 class="card-title text-dark">DEC Photography</h5>
+                                    <a tabindex="0" class="btn btn-sm" role="button" data-bs-toggle="popover" data-bs-placement="top"
+                                        data-bs-trigger="focus" title="Full Stack Frameworks with Django"
+                                        data-bs-content="Main Technologies: HTML, CSS, Bootstrap, JavaScript, Python, Django, Stripe, AWS, Git, GitHub, Heroku">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
