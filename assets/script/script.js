@@ -12,6 +12,10 @@ function scrollingDown() {
 
 function goToTop() {
   window.scrollTo(0,0);
-  // document.body.scrollTop = 0;
-  // document.documentElement.scrollTop = 0;
 }
+
+// Bootstrap popovers
+const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+let popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
