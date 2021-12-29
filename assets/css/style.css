@@ -177,6 +177,16 @@ body {
 
 /* ---------------------- About content ------------------------ */
 
+.about-plus {
+  color: #495a6e;
+  border: none;
+  background: none;
+}
+
+#more-text {
+  display: none;
+}
+
 .modal-btn {
   color: #000000;
   background: #fafafa;
@@ -211,7 +221,7 @@ body {
   transition: ease-in-out 400ms;
 }
 
-.accordion-button:not(.collapsed) {
+/* .accordion-button:not(.collapsed) {
   box-shadow: none;
   background: #fafafa;
   color: #000;
@@ -219,7 +229,7 @@ body {
 
 .accordion-button:focus {
   box-shadow: none;
-}
+} */
 
 .lang-bar {
   height: 1.5rem;
