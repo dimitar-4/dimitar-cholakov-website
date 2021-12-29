@@ -12,7 +12,8 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Darker+Grotesque:wght@300;400;500;600;700;800&display=swap" 
+        rel="stylesheet">
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -31,10 +32,10 @@
 
     <!-- Navigation bar  -->
     <header>
-        <a href="#main-content" class="go-to-main-link fs-5 rounded-bottom">
+        <a href="#about" class="go-to-main-link fs-5 rounded-bottom">
             skip to content
         </a>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
                 <a class="navbar-brand ms-2 d-md-block d-lg-none" href="index.html">
                     <img src="/assets/images/favicon.png" alt="My logo">
@@ -46,7 +47,7 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item mx-auto p-3">
-                            <a class="nav-link active text-uppercase" aria-current="page" href="index.html">
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#home">
                                 <i class="fas fa-home"></i>
                             </a>
                         </li>
@@ -54,7 +55,7 @@
                             <a class="nav-link text-uppercase" href="#about">Resume</a>
                         </li>
                         <li class="nav-item mx-auto p-3">
-                            <a class="nav-link text-uppercase" href="#">Portfolio</a>
+                            <a class="nav-link text-uppercase" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item mx-auto p-3">
                             <a class="nav-link text-uppercase" href="#">Interests</a>
@@ -69,11 +70,11 @@
     </header>
 
     <!-- Back to top button -->
-    <button onclick="goToTop()" id="toTopBtn" class="to-top-btn" title="Go to top">
+    <button onclick="goToTop()" id="toTopBtn" class="to-top-btn rounded" title="Go to top">
         <i class="fas fa-angle-double-up"></i>
     </button>
 
-    <main id="main-content">
+    <main>
         <!-- Hero container -->
         <div id="home" class="row mx-auto">
             <div class="card bg-dark text-white border-0 rounded-0 px-0">
@@ -87,8 +88,8 @@
                             </div>
                             <div class="col-sm-8">
                                 <div class="card-body hero-text shadow rounded-end my-2">
-                                    <h1 class="card-title text-md-start text-center hero-info"><strong>H</strong>ello! I'm <strong>Dimitar</strong>.</h1>
-                                    <h5 class="card-text text-md-start text-center fs-4 hero-info">
+                                    <h1 class="card-title text-md-start text-center hero-info ht-font pt-lg-3"><strong>H</strong>ello! I'm <strong>Dimitar</strong>.</h1>
+                                    <h5 class="card-text text-md-start text-center fs-3 hero-info mt-lg-3">
                                         <strong>Software developer</strong> 
                                         passionate about '<strong>making the web</strong>'. Embrace new challenges & focused on <strong>results</strong>.
                                     </h5>
@@ -123,11 +124,11 @@
         <!-- About Me container -->
         <div class="container mt-3">
             <div class="row mt-3">
-                <h1 id="about" class="text-lg-start text-center mt-3">More About Me</h1>
+                <h1 id="about" class="ht-font text-lg-start text-center mt-3">About Me</h1>
                 <div class="col-12 col-lg-10 offset-lg-1">
-                    <p class="fs-5 mt-2 text-lg-start text-center">
+                    <p class="fs-3 mt-2 text-lg-start text-center">
                         I'm a junior software developer, hobby photographer, hiking enthusiast and former industry specialist.
-                        Now I specialize mostly in frontend development. Currently I'm a student and a job
+                        I specialize mostly in frontend development. Currently I'm a student and a job
                         seeker eager to learn more and gain experience in an actual work environment.
                     </p>
                 </div>
@@ -646,12 +647,12 @@
         </div>
 
         <!-- Portfolio container -->
-        <div class="portfolio-container">
+        <div id="portfolio" class="portfolio-container">
             <div class="container">
                 <div class="row mt-3">
-                    <h1 class="text-lg-start text-center text-light mt-3">My Work</h1>
+                    <h1 class="text-lg-start text-center text-light mt-3 ht-font">My Work</h1>
                     <div class="col-12 col-lg-10 offset-lg-1">
-                        <p class="fs-4 mt-2 text-lg-start text-center text-white">
+                        <p class="fs-3 mt-2 text-lg-start text-center text-white">
                             These are <strong>milestone projects</strong> I've built while studying in <strong>Code Institute</strong>.
                         </p>
                     </div>
@@ -664,7 +665,7 @@
                             </a>
                             <div class="row card-body">
                                 <div class="project-info">
-                                    <h5 class="text-dark">Retro Cars Club</h5>
+                                    <h5 class="card-title text-dark ht-font">Retro Cars Club</h5>
                                     <a tabindex="0" class="btn btn-sm" role="button" data-bs-toggle="popover" 
                                     data-bs-placement="top" data-bs-trigger="focus" title="User Centric Frontend Development" 
                                         data-bs-content="Main Technologies: HTML, CSS, Bootstrap, Git, GitHub">
@@ -681,7 +682,7 @@
                             </a>
                             <div class="row card-body">
                                 <div class="project-info">
-                                    <h5 class="card-title text-dark">Car Brands Memo Game</h5>
+                                    <h5 class="card-title text-dark ht-font">Car Brands Memo Game</h5>
                                     <a tabindex="0" class="btn btn-sm" role="button" data-bs-toggle="popover" data-bs-placement="top"
                                         data-bs-trigger="focus" title="Interactive Frontend Development"
                                         data-bs-content="Main Technologies: HTML, CSS, JavaScript, Bootstrap, Git, GitHub">
@@ -698,10 +699,10 @@
                             </a>
                             <div class="row card-body">
                                 <div class="project-info">
-                                    <h5 class="card-title text-dark">What To Watch</h5>
+                                    <h5 class="card-title text-dark ht-font">What To Watch</h5>
                                     <a tabindex="0" class="btn btn-sm" role="button" data-bs-toggle="popover" data-bs-placement="top"
                                         data-bs-trigger="focus" title="Data Centric Development"
-                                        data-bs-content="Main Technologies: Python, MySQL, MongoDB, Git, GitHub, Heroku">
+                                        data-bs-content="Main Technologies: HTML, CSS, Python, Materialize, MySQL, MongoDB, Git, GitHub, Heroku">
                                         <i class="fas fa-info-circle"></i>
                                     </a>
                                 </div>
@@ -715,10 +716,10 @@
                             </a>
                             <div class="row card-body">
                                 <div class="project-info">
-                                    <h5 class="card-title text-dark">DEC Photography</h5>
+                                    <h5 class="card-title text-dark ht-font">DEC Photography</h5>
                                     <a tabindex="0" class="btn btn-sm" role="button" data-bs-toggle="popover" data-bs-placement="top"
                                         data-bs-trigger="focus" title="Full Stack Frameworks with Django"
-                                        data-bs-content="Main Technologies: HTML, CSS, Bootstrap, JavaScript, Python, Django, Stripe, AWS, Git, GitHub, Heroku">
+                                        data-bs-content="Main Technologies: HTML, CSS, Python, Django, JavaScript, Bootstrap, Stripe, AWS, Git, GitHub, Heroku">
                                         <i class="fas fa-info-circle"></i>
                                     </a>
                                 </div>
