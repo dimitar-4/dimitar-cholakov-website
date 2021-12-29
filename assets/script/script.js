@@ -3,7 +3,7 @@ const btnTop = document.getElementById("toTopBtn");
 
 window.onscroll = function() {scrollingDown()};
 function scrollingDown() {
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     btnTop.style.display = "block";
   } else {
     btnTop.style.display = "none";
