@@ -187,6 +187,20 @@ body {
   display: none;
 }
 
+.resume-btn {
+  color: #fafafa;
+  background: #495a6e;
+  border: 2px solid #495a6e;
+  padding: 0.5rem 2rem;
+  margin: 1rem;
+  font-weight: 500;
+}
+
+.resume-btn:hover {
+  color: #495a6e;
+  background: #fafafa;
+}
+
 .modal-btn {
   color: #000000;
   background: #fafafa;
@@ -247,22 +261,27 @@ body {
 
 .achieve-item {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .achieve-link {
   text-decoration: none;
   color: #495a6e;
-  padding: 0.5rem 1rem;
-  font-size: 2rem;
+  padding: 0.25rem 0.75rem;
+  margin: auto 0.25rem;
+  font-size: 1.3rem;
+  border-radius: 0.25rem;
 }
 
 .achieve-link:hover {
-  background-color: #e7ebe7;
-  color: #495a6e;
+  background-color: #495a6e;
+  color: #fafafa;
   transition: ease-in-out 400ms;
 }
 
-.net-links {
+/* .net-links {
   background-color: #fafafa;
   padding: 0;
   display: flex;
@@ -293,7 +312,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border: 3px solid #fafafa;
-}
+} */
 
 /* ------------------ Portfolio content -------------------- */
 
@@ -433,6 +452,11 @@ body {
 
   .hero-links {
     padding-right: 0;
+  }
+
+  .resume-btn {
+    font-size: 1rem;
+    padding: 0.25rem 1rem;
   }
 }
 
