@@ -225,14 +225,15 @@ body {
 .edu-work-link {
   color: #495a6e;
   text-decoration: none;
-  padding-left: 0.3rem;
-  padding-right: 0.3rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
   transition: ease-in-out 400ms;
+  border-radius: 2px;
 }
 
 .edu-work-link:hover {
-  background: #e7ebe7;
-  color: #495a6e;
+  background: #495a6e;
+  color: #fafafa;
   transition: ease-in-out 400ms;
 }
 
