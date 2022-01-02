@@ -77,6 +77,27 @@ body {
   border: none;
 }
 
+/* ---------------------- Media navigation -------------------- */
+
+.media-nav {
+  background: #495a6e;
+}
+
+.media-nav-link {
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+  transition: 250ms ease-in-out;
+}
+
+.media-nav-link:hover {
+  color: #495a6e;
+  background: #fafafa;
+  transition: 250ms ease-in-out;
+}
+
 /* ----------------------Go to top button -------------------- */
 
 .to-top-btn {
