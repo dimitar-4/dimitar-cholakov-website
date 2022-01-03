@@ -77,13 +77,23 @@ body {
   border: none;
 }
 
-/* ---------------------- Media navigation -------------------- */
+/* ---------------------- Second navigation -------------------- */
 
-.media-nav {
+.second-nav {
   background: #495a6e;
 }
 
-.media-nav-link {
+.second-nav-logo {
+  width: 2rem;
+  height: auto;
+}
+
+.scroll-text {
+  color: #fafafa;
+  font-size: 1.25rem;
+}
+
+.second-nav-link {
   color: #fafafa;
   text-decoration: none;
   font-size: 1.5rem;
@@ -92,7 +102,7 @@ body {
   transition: 250ms ease-in-out;
 }
 
-.media-nav-link:hover {
+.second-nav-link:hover {
   color: #495a6e;
   background: #fafafa;
   transition: 250ms ease-in-out;
