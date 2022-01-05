@@ -381,6 +381,20 @@ body {
   color: #fafafa;
 }
 
+.hobby-container {
+  padding: 0;
+}
+
+.hobby-tab {
+  background-color: #fafafa !important;
+}
+
+.interest-card-img {
+  height: 65vh;
+  object-fit: cover;
+  border-radius: 0;
+}
+
 /* ----------------------- Keyframes --------------------------- */
 
 @keyframes hero-img {
