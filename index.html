@@ -50,34 +50,33 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav flex-row flex-wrap mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item col-6 col-md-auto mx-auto p-2">
-                            <a class="nav-link text-uppercase" aria-current="page" href="#home">
-                                <i class="fas fa-home d-none d-lg-block fs-5"></i>
-                                <span class="d-lg-none">Home</span>
+                        <li class="nav-item col-6 col-md-auto mx-auto">
+                            <a class="nav-link text-uppercase p-lg-3" aria-current="page" href="#home">
+                                Home
                             </a>
                         </li>
-                        <li class="nav-item col-6 col-md-auto mx-auto p-2">
-                            <a class="nav-link text-uppercase" href="#about">
+                        <li class="nav-item col-6 col-md-auto mx-auto">
+                            <a class="nav-link text-uppercase p-lg-3" href="#about">
                                 About
                             </a>
                         </li>
-                        <li class="nav-item col-6 col-md-auto mx-auto p-2">
-                            <a class="nav-link text-uppercase" type="button" data-bs-toggle="modal" data-bs-target="#resumeModal">
+                        <li class="nav-item col-6 col-md-auto mx-auto">
+                            <a class="nav-link text-uppercase p-lg-3" type="button" data-bs-toggle="modal" data-bs-target="#resumeModal">
                                 Resumé
                             </a>
                         </li>
-                        <li class="nav-item col-6 col-md-auto mx-auto p-2">
-                            <a class="nav-link text-uppercase" href="#portfolio">
+                        <li class="nav-item col-6 col-md-auto mx-auto">
+                            <a class="nav-link text-uppercase p-lg-3" href="#portfolio">
                                 Portfolio
                             </a>
                         </li>
-                        <li class="nav-item col-6 col-md-auto mx-auto p-2">
-                            <a class="nav-link text-uppercase" href="#interests">
+                        <li class="nav-item col-6 col-md-auto mx-auto">
+                            <a class="nav-link text-uppercase p-lg-3" href="#interests">
                                 Interests
                             </a>
                         </li>
-                        <li class="nav-item col-6 col-md-auto mx-auto p-2">
-                            <a class="nav-link text-uppercase" href="#">
+                        <li class="nav-item col-6 col-md-auto mx-auto">
+                            <a class="nav-link text-uppercase p-lg-3" href="#">
                                 Contact
                             </a>
                         </li>
@@ -244,7 +243,7 @@
                     <div class="col-12 col-md-7 col-lg-7 d-flex justify-content-center align-items-center">
                         <!-- Resume modal -->
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn rounded-pill fs-3 resume-btn" data-bs-toggle="modal" data-bs-target="#resumeModal">
+                        <button type="button" class="btn rounded fs-3 resume-btn" data-bs-toggle="modal" data-bs-target="#resumeModal">
                             RESUMÉ
                         </button>
                         <!-- Modal -->
@@ -666,7 +665,7 @@
                             </div>
                         </div>
                         <!-- Download CV link -->
-                        <a class="btn rounded-pill fs-3 resume-btn" href="#" role="button">
+                        <a class="btn rounded fs-3 resume-btn" href="#" role="button">
                             CV <i class="fas fa-file-download"></i>
                         </a>
                     </div>
@@ -686,7 +685,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 pb-lg-5 pb-3">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 pb-lg-5 pb-3">
                     <div class="col">
                         <div class="card shadow-lg mb-3 project-card">
                             <a href="https://dimitar-4.github.io/ms-project1-rcc/" target="_blank">
@@ -820,28 +819,32 @@
                 <!-- Tabs buttons -->
                 <ul class="nav nav-pills my-3 justify-content-center align-items-center" 
                     id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="pills-photo-tab" data-bs-toggle="pill" data-bs-target="#pills-photo"
+                    <li class="nav-item col-6 col-sm-auto" role="presentation">
+                        <a class="nav-link hobby-btn d-flex align-items-center justify-content-center active" id="pills-photo-tab" data-bs-toggle="pill" data-bs-target="#pills-photo"
                             type="button" role="tab" aria-controls="pills-photo" aria-selected="true">
-                            <i class="fas fa-camera"></i> Photography
+                            <i class="fas fa-camera fs-4"></i> 
+                            <span class="d-none d-md-block fs-4"> &nbsp; Photography</span>
                         </a>
                     </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="pills-hiking-tab" data-bs-toggle="pill" data-bs-target="#pills-hiking"
+                    <li class="nav-item col-6 col-sm-auto" role="presentation">
+                        <a class="nav-link hobby-btn d-flex align-items-center justify-content-center" id="pills-hiking-tab" data-bs-toggle="pill" data-bs-target="#pills-hiking"
                             type="button" role="tab" aria-controls="pills-hiking" aria-selected="false">
-                            <i class="fas fa-hiking"></i> Hiking
+                            <i class="fas fa-hiking fs-4"></i>
+                            <span class="d-none d-md-block fs-4"> &nbsp; Hiking</span>
                         </a>
                     </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="pills-travel-tab" data-bs-toggle="pill" data-bs-target="#pills-travel"
+                    <li class="nav-item col-6 col-sm-auto" role="presentation">
+                        <a class="nav-link hobby-btn d-flex align-items-center justify-content-center" id="pills-travel-tab" data-bs-toggle="pill" data-bs-target="#pills-travel"
                             type="button" role="tab" aria-controls="pills-travel" aria-selected="false">
-                            <i class="fas fa-suitcase"></i> Travel
+                            <i class="fas fa-suitcase fs-4"></i>
+                            <span class="d-none d-md-block fs-4"> &nbsp; Travel</span>
                         </a>
                     </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="pills-gaming-tab" data-bs-toggle="pill" data-bs-target="#pills-gaming"
+                    <li class="nav-item col-6 col-sm-auto" role="presentation">
+                        <a class="nav-link hobby-btn d-flex align-items-center justify-content-center" id="pills-gaming-tab" data-bs-toggle="pill" data-bs-target="#pills-gaming"
                             type="button" role="tab" aria-controls="pills-gaming" aria-selected="false">
-                            <i class="fas fa-gamepad"></i> Gaming
+                            <i class="fas fa-gamepad fs-4"></i>
+                            <span class="d-none d-md-block fs-4"> &nbsp; Gaming</span>
                         </a>
                     </li>
                 </ul>
