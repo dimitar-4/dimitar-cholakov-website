@@ -390,7 +390,7 @@ body {
 }
 
 .interest-card-img {
-  height: 65vh;
+  height: 60vh;
   object-fit: cover;
   border-radius: 0;
 }
@@ -491,6 +491,10 @@ body {
   .resume-btn {
     font-size: 1rem;
     padding: 0.25rem 1rem;
+  }
+
+  .interest-card-img {
+    height: 70vh;
   }
 }
 
