@@ -481,6 +481,14 @@ body {
     max-width: 90%;
   }
 
+  .project-img {
+    height: 100%;
+  }
+
+  .project-links {
+    margin: 0.25rem;
+  }
+
   .games-info {
     font-size: 1.5rem;
     font-weight: 600;
