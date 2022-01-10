@@ -397,20 +397,19 @@ body {
 }
 
 .gaming-tab {
-  height: 60vh;
-  background-color: #000000;
+  background-color: #000;
 }
 
 .games-info {
-  font-size: 2rem;
+  font-size: clamp(1.25rem, 2vw + 1rem, 2.5rem);
   font-weight: 700;
+  padding: max(3vh, 1rem) 2rem;
 }
 
 .game-img {
-  width: 50%;
-  height: 30vh;
-  object-fit: contain;
-  padding: 0.5rem 0;
+  width: 15vw;
+  max-width: 10rem;
+  height: auto;
 }
 
 /* ----------------------- Keyframes --------------------------- */
@@ -469,11 +468,6 @@ body {
   .navbar-brand img {
     width: 2.25rem;
   }
-
-  .games-info {
-    font-size: 1.75rem;
-    font-weight: 600;
-  }
 }
 
 @media (max-width: 768px) {
@@ -487,15 +481,6 @@ body {
 
   .project-links {
     margin: 0.25rem;
-  }
-
-  .games-info {
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
-
-  .game-img {
-    height: 20vh;
   }
 }
 
@@ -534,15 +519,7 @@ body {
   }
 
   .interest-card-img {
-    height: 70vh;
-  }
-
-  .games-info {
-    font-size: 1.25rem;
-  }
-
-  .game-img {
-    height: 15vh;
+    height: 65vh;
   }
 }
 
