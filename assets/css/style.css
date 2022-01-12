@@ -145,7 +145,6 @@ body {
 .btn-main {
   color: #fafafa;
   background-color: #495a6e;
-  width: 7rem;
   border: 0.25rem solid #495a6e;
 }
 
@@ -316,7 +315,6 @@ body {
 /* ------------------ Portfolio content -------------------- */
 
 .portfolio-container {
-  /* background: linear-gradient(to bottom right, #1378ebad, #0db1bdbe, #018b1dcc); */
   background: #495a6e;
 }
 
@@ -398,6 +396,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* ------------------- Contact container ----------------- */
+
+.contact-container {
+  background: #333;
 }
 
 /* ----------------------- Keyframes --------------------------- */
