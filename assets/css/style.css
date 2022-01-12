@@ -171,35 +171,26 @@ body {
 }
 
 .hero-img {
-  height: 19rem;
+  height: 15rem;
+  width: 15rem;
   object-fit: cover;
-  animation: hero-img 3s;
-  -webkit-animation: hero-img 3s;
+  animation: hero-img 2s;
+  -webkit-animation: hero-img 2s;
 }
 
 .hero-text {
   padding: 0;
-  background: linear-gradient(to bottom right, #1378eb3a, #0d5fbd31, #018b1d31);
-  /* background: linear-gradient(to bottom right, #cfdceb, #b0c6df, #a9e0b4); */
-  animation: bg-fade-in 3s;
-  -webkit-animation: bg-fade-in 3s;
-}
-
-.hero-text {
+  animation: greet-fade-in 4s;
+  -webkit-animation: greet-fade-in 4s;
   margin: 0;
   padding: 0 0 1rem 1rem;
   color: #ffffff;
 }
 
-.hero-info {
-  animation: greet 3s;
-  -webkit-animation: greet 3s;
-}
-
 .hero-links {
   padding-right: 1rem;
-  animation: hero-links 4s;
-  -webkit-animation: hero-links 4s;
+  animation: greet-fade-in 5s;
+  -webkit-animation: greet-fade-in 5s;
 }
 
 .hero-links a {
@@ -409,48 +400,18 @@ body {
 @keyframes hero-img {
   from {
     opacity: 0;
-    transform: translateY(-250px);
-    -webkit-transform: translateY(-250px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
-  }
-}
-
-@keyframes bg-fade-in {
-  from {
-    opacity: 0;
   }
   to {
     opacity: 1;
   }
 }
 
-@keyframes greet {
+@keyframes greet-fade-in {
   from {
     opacity: 0;
-    transform: translateX(225px);
-    -webkit-transform: translateX(225px);
   }
   to {
     opacity: 1;
-    transform: translateX(0px);
-    -webkit-transform: translateX(0px);
-  }
-}
-
-@keyframes hero-links {
-  from {
-    opacity: 0;
-    transform: translateX(-225px);
-    -webkit-transform: translateX(-225px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-    -webkit-transform: translateX(0px);
   }
 }
 
@@ -488,8 +449,8 @@ body {
   }
 
   .hero-img {
-    height: 12rem;
-    max-width: 60%;
+    height: 11rem;
+    width: 11rem;
   }
 
   .hero-text {
@@ -518,6 +479,7 @@ body {
 
   .hero-img {
     height: 10rem;
+    width: 10rem;
   }
 
   .hero-text h1 {
