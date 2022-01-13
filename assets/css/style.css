@@ -404,6 +404,8 @@ body {
 
 .input-style {
   border: 0.25rem solid #495a6e;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .message-btn {
@@ -470,10 +472,6 @@ body {
 }
 
 @media (max-width: 575px) {
-  .hero-bg {
-    height: 80vh;
-  }
-
   .hero-img-sm {
     display: flex;
     justify-content: center;
