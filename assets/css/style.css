@@ -334,9 +334,7 @@ body {
 }
 
 .project-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
 }
 
 .project-title {
@@ -348,15 +346,15 @@ body {
 }
 
 .project-links {
-  margin: 0 0.25rem;
+  margin: 0.5rem;
   background: #495a6e;
   color: #fafafa;
+  border: 2px solid #495a6e;
 }
 
 .project-links:hover {
   background: #fafafa;
   color: #495a6e;
-  border: 1px solid #495a6e;
 }
 
 /* ----------------- Interests content ---------------- */
