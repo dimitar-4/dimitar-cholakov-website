@@ -41,7 +41,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
                 <a class="navbar-brand ms-2 d-md-block d-lg-none" href="index.html">
-                    <img src="/assets/images/favicon.png" alt="My logo">
+                    <img src="/assets/images/favicon.png" alt="logo">
                 </a>
                 <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -216,9 +216,9 @@
         </div>
 
         <!-- About container -->
-        <div class="container mt-3">
+        <div id="about" class="container mt-3">
             <div class="row mt-3">
-                <h1 id="about" class="ht-font text-lg-start text-center mt-3">About Me</h1>
+                <h1 class="ht-font text-lg-start text-center mt-3">About Me</h1>
                 <div class="col-12 col-lg-10 offset-lg-1">
                     <p class="fs-2 mt-2 text-lg-start text-center">
                         I'm a junior software developer passionate about 'making the web'. I embrace new challenges 
@@ -1160,7 +1160,7 @@
                             <label for="email" class="text-light fs-4">E-mail:</label>
                             <input type="text" class="w-100 rounded input-style" name="email" required>
                             <textarea name="message" placeholder="Enter your message here..." 
-                                class="w-100 mt-4 rounded input-style" cols="35" rows="4" required></textarea>
+                                class="w-100 mt-4 rounded input-style" cols="30" rows="4" required></textarea>
                             <br>
                             <input type="submit" class="btn btn-lg message-btn m-3 fs-4" value="Send Message">
                         </form>
@@ -1169,6 +1169,93 @@
             </div>
         </div>
     </main>
+
+    <footer class="footer-container">
+        <div class="row mx-auto">
+            <!-- Quick nav -->
+            <div class="col-12 col-lg-6 d-none d-lg-block">
+                <h4 class="text-center text-light mb-0">Quick menu</h4>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link footer-nav" href="#home">
+                            <i class="fas fa-house-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link footer-nav" href="#about">
+                            <i class="fas fa-user-alt"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link footer-nav" type="button" data-bs-toggle="modal" data-bs-target="#resumeModal">
+                            <i class="fas fa-user-graduate"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link footer-nav" href="#portfolio">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link footer-nav" href="#interests">
+                            <i class="fas fa-user-clock"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link footer-nav" href="#contact">
+                            <i class="fas fa-people-arrows"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Connect links -->
+            <div class="col-12 col-lg-6 px-5">
+                <h4 class="text-center text-light mb-0">Connect with me</h4>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/dimitar-cholakov-a298201b5" 
+                            class="nav-link footer-nav" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/dimitar-4" class="nav-link footer-nav" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://app.slack.com/client/T0L30B202/D01AS6N2BL0/user_profile/U019VF456LT" 
+                            class="nav-link footer-nav" target="_blank">
+                            <i class="fab fa-slack"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mailto:dimitar.e.cholakov@gmail.com" class="nav-link footer-nav">
+                            <i class="fas fa-at"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.facebook.com/dimitar.cholakov1/" 
+                            class="nav-link footer-nav" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/dimitar.e.cholakov/" 
+                            class="nav-link footer-nav" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mx-auto bg-light">
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="/assets/images/favicon.png" class="footer-logo" alt="logo">
+                <h4 class="text-center ht-font mb-0">Dimitar Cholakov&#169; 2022</h4>
+            </div>
+        </div>
+    </footer>
 
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
