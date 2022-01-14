@@ -443,7 +443,7 @@ body {
 
 .footer-logo {
   width: auto;
-  height: 2rem;
+  height: 2.25rem;
   margin: 0 1rem 0 0;
 }
 
@@ -526,6 +526,11 @@ body {
   .resume-btn {
     font-size: 1rem;
     padding: 0.25rem 1rem;
+  }
+
+  .footer-nav {
+    margin: 0.125rem;
+    padding: 0.25rem;
   }
 }
 
