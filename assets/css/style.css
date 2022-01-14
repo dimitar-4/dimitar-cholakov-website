@@ -394,7 +394,7 @@ body {
 .games-tab {
   font-size: clamp(1.25rem, 2vw + 1rem, 2.5rem);
   font-weight: 700;
-  background: url(/assets/images/interests/gaming-bg.jpg);
+  background: url(assets/images/interests/gaming-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 25rem;
