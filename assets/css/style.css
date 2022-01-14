@@ -14,7 +14,7 @@ body {
 /* Headers & Titles (ht) font */
 
 .ht-font {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Questrial", sans-serif;
 }
 
 /* -------------- Skip Nav and Home content btn -------------- */
@@ -200,9 +200,16 @@ body {
 }
 
 .continue-icon {
-  margin: 0.5rem;
+  margin: 0.25rem;
+  padding: 0.25rem;
   animation: btn-pulse 1s infinite;
   -webkit-animation: btn-pulse 1s infinite;
+  transition: 250ms ease-in-out;
+}
+
+.continue-icon:hover {
+  transform: scale(105%);
+  transition: 250ms ease-in-out;
 }
 
 /* ---------------------- About content ------------------------ */
@@ -529,7 +536,7 @@ body {
   }
 
   .footer-nav {
-    margin: 0.125rem;
+    margin: 0.25rem;
     padding: 0.25rem;
   }
 }
