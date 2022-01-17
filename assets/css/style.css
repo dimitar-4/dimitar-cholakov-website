@@ -1,5 +1,4 @@
-/* Potential colors */
-/* Green - #0a7841, #0a7820 */
+/* Greens - #0a7841, #0a7820 */
 
 /* -------------------- Body style ------------------- */
 
@@ -146,11 +145,14 @@ body {
   color: #fafafa;
   background-color: #495a6e;
   border: 0.25rem solid #495a6e;
+  text-decoration: none;
+  transition: ease-in-out 250ms;
 }
 
 .btn-main:hover {
   background-color: #fafafa;
   color: #495a6e;
+  transition: ease-in-out 250ms;
 }
 
 /* ---------------------- Home content --------------------- */
@@ -214,13 +216,8 @@ body {
 
 /* ---------------------- About content ------------------------ */
 
-.about-plus {
-  color: #495a6e;
-  border: none;
-  background: none;
-}
-
-#more-text {
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
   display: none;
 }
 
