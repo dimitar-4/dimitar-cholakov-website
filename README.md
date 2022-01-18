@@ -1,5 +1,7 @@
 # **Dimitar Cholakov** - Personal Website/Portfolio
 
+This is my personal website. Here you can learn more about me, my professional and personal experiences, my goals and interests, opportunity to contact or connect with me on social media.
+
 [Live link here!](https://dimitar-4.github.io/dimitar-cholakov-website/)
 
 ![responsive-img](assets/images/responsive-img.png)
