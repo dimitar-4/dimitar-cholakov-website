@@ -1,12 +1,16 @@
 # **Dimitar Cholakov** - Personal Website/Portfolio
 
-## Languages Used
+[Live link here!](https://dimitar-4.github.io/dimitar-cholakov-website/)
 
-1. HTML 5 - _Structure_
-2. CSS 3 - _Style_
-3. JavaScript - _Logic_
+![responsive-img](assets/images/responsive-img.png)
 
 ---
+
+## Languages Used
+
+1. HTML 5
+2. CSS 3
+3. JavaScript
 
 ## Technologies Used
 
@@ -19,16 +23,20 @@
 4.  Font Awesome
     - Used to add icons.
 5.  Favicon.io
-    - Used to create and add favicon.
+    - Used to create favicon & website logo.
 6.  Git
     - Used for version control.
 7.  GitHub
     - Used to publish and store this project.
+8.  Formspree
+    - Used to add functionality to contact form.
+9.  TinyPNG
+    - Used to compress images in the project.
 
 ---
 
 ## Credits
 
-### Content
-
 ### Media
+
+- Background image of the hero container & gaming-tab background image in interests menu are from [Freepik](https://www.freepik.com/).
