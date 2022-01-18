@@ -73,6 +73,8 @@ body {
 
 .second-nav {
   background: #495a6e;
+  justify-content: center;
+  align-items: center;
 }
 
 .second-nav-logo {
