@@ -529,6 +529,10 @@ body {
     padding-right: 0;
   }
 
+  .to-top-btn {
+    right: 0.75rem;
+  }
+
   .resume-btn {
     font-size: 1rem;
     padding: 0.25rem 1rem;
