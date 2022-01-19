@@ -339,6 +339,10 @@ body {
   object-fit: cover;
 }
 
+.project-4-img {
+  max-height: 12rem;
+}
+
 .project-info {
   text-align: center;
 }
