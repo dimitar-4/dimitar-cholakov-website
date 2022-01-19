@@ -1,4 +1,4 @@
-# **Dimitar Cholakov** - Personal Website/Portfolio
+# **Dimitar Cholakov** - Website & Portfolio
 
 This is my personal website. Here you can learn more about me, my professional and personal experiences, my goals and interests, opportunity to contact or connect with me on social media.
 
