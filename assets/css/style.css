@@ -370,17 +370,22 @@ body {
 /* ----------------- Interests content ---------------- */
 
 .hobby-btn {
-  color: #495a6e;
-  background: #fafafa;
+  color: #fafafa;
+  background: #495a6e !important;
   border: 0.25rem solid #495a6e !important;
   font-family: "Darker Grotesque", sans-serif;
   margin: 0.25rem 1rem;
   font-weight: 500;
 }
 
+.hobby-btn:hover {
+  color: #495a6e !important;
+  background: #fafafa !important;
+}
+
 .active {
-  background: #495a6e !important;
-  color: #fafafa;
+  background: #fafafa !important;
+  color: #495a6e !important;
 }
 
 .hobby-tab {
@@ -401,6 +406,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 25rem;
+  color: #fafafa;
   display: flex;
   justify-content: center;
   align-items: center;
