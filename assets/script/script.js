@@ -19,3 +19,8 @@ const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-tog
 let popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl)
 })
+
+// Current year
+const showYear = new Date();
+let year = showYear.getFullYear();
+document.getElementById("year").innerHTML = year;
